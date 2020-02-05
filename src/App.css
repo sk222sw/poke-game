@@ -1,0 +1,47 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.content {
+  background-color: #545c6d;
+  height: 85vh;
+}
+
+.loading {
+  margin: 0;
+  padding: 0;
+  color: #727f99;
+  height: 10vh;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  height: 20vh;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.get-button {
+  height: 10vh;
+  width: 20vh;
+}
+
+.current-pokemon {
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
